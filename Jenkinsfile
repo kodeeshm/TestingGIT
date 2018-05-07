@@ -6,5 +6,10 @@ pipeline {
         echo 'hello world'
       }
     }
+    stage('Browser Test') {
+      steps {
+        echo 'Browser Test is passed'
+      }
+    }
   }
 }
